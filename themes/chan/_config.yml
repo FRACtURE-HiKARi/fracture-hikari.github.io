@@ -8,7 +8,7 @@ favicon: /favicon.png
 monochrome: true
 
 # view setting
-avatar: /images/avatar.jpg
+avatar: /images/avatar.png
 avatarLink: /about
 maxContentWidth: 1000px # set the main content column's max-width property. keep it blank to unlimited the width
 copyright: # the copyright text in the footer, could be richtext
