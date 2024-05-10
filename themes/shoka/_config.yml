@@ -31,7 +31,7 @@ auto_scroll: true
 
 # Whether to show the loading cat
 loader:
-  start: true # When entering the page
+  start: false # When entering the page
   switch: false # When switching to another page
 
 # click with Firework
@@ -44,7 +44,7 @@ fireworks:
     # - "rgba(138,198,209,.9)"
 
 font:
-  enable: false
+  enable: true
   # Font options:
   # `external: true` will load this font family from `host` above.
   # `family: Times New Roman`. Without any quotes.
