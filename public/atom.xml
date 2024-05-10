@@ -3,7 +3,18 @@
     <id>https://fracture-hikari.github.io</id>
     <title>Fracture Hikari&#39;s Blogs</title>
     <link href="https://fracture-hikari.github.io" />
-    <updated>2024-05-10T07:03:49.466Z</updated>
+    <updated>2024-05-10T13:06:39.545Z</updated>
+    <entry>
+        <id>https://fracture-hikari.github.io/2024/05/10/learning-path/mp11-ast/</id>
+        <title>MP11 和抽象语法树</title>
+        <link rel="alternate" href="https://fracture-hikari.github.io/2024/05/10/learning-path/mp11-ast/"/>
+        <content type="html">&lt;h1 id=&#34;mp11&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mp11&#34;&gt;#&lt;/a&gt; MP11&lt;/h1&gt;
+&lt;p&gt;这是某校某课的某作业，其内容是手搓半个 C 语言到 LC-3 汇编的编译器。&lt;br&gt;
+基于 flex 和 bison 的语法分析器已经做好了，要写的部分是从 AST 到汇编语言的转换。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;施工中啊吧啊吧&lt;/s&gt;&lt;/p&gt;
+</content>
+        <updated>2024-05-10T13:06:39.545Z</updated>
+    </entry>
     <entry>
         <id>https://fracture-hikari.github.io/2024/05/10/hello-world/hello-world/</id>
         <title>Hello World</title>
@@ -23,6 +34,6 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
 </content>
-        <updated>2024-05-10T07:03:49.466Z</updated>
+        <updated>2024-05-10T12:56:04.305Z</updated>
     </entry>
 </feed>

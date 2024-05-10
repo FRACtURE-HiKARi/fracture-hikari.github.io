@@ -5,13 +5,24 @@
         <link>https://fracture-hikari.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Fri, 10 May 2024 15:03:49 +0800</pubDate>
-        <lastBuildDate>Fri, 10 May 2024 15:03:49 +0800</lastBuildDate>
+        <pubDate>Fri, 10 May 2024 21:06:39 +0800</pubDate>
+        <lastBuildDate>Fri, 10 May 2024 21:06:39 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://fracture-hikari.github.io/2024/05/10/learning-path/mp11-ast/</guid>
+            <title>MP11 和抽象语法树</title>
+            <link>https://fracture-hikari.github.io/2024/05/10/learning-path/mp11-ast/</link>
+            <pubDate>Fri, 10 May 2024 21:06:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;mp11&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mp11&#34;&gt;#&lt;/a&gt; MP11&lt;/h1&gt;
+&lt;p&gt;这是某校某课的某作业，其内容是手搓半个 C 语言到 LC-3 汇编的编译器。&lt;br&gt;
+基于 flex 和 bison 的语法分析器已经做好了，要写的部分是从 AST 到汇编语言的转换。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;施工中啊吧啊吧&lt;/s&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://fracture-hikari.github.io/2024/05/10/hello-world/hello-world/</guid>
             <title>Hello World</title>
             <link>https://fracture-hikari.github.io/2024/05/10/hello-world/hello-world/</link>
-            <pubDate>Fri, 10 May 2024 15:03:49 +0800</pubDate>
+            <pubDate>Fri, 10 May 2024 20:56:04 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
