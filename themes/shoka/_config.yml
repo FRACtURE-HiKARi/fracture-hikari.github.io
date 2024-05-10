@@ -44,7 +44,7 @@ fireworks:
     # - "rgba(138,198,209,.9)"
 
 font:
-  enable: true
+  enable: false
   # Font options:
   # `external: true` will load this font family from `host` above.
   # `family: Times New Roman`. Without any quotes.
