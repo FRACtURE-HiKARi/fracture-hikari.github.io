@@ -92,10 +92,10 @@ menu:
   home: / || home
   about: /about/ || user
   posts:
-  #  default: / || feather
-  #   archives: /archives/ || list-alt
-  #   categories: /categories/ || th
-  #   tags: /tags/ || tags
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
   friends: /friends/ || heart
   links: /links/ || magic
 
