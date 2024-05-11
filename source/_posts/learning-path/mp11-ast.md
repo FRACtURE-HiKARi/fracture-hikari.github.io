@@ -1,5 +1,6 @@
 ---
 title: MP11 和抽象语法树
+cover: cover.png
 ---
 
 # MP11

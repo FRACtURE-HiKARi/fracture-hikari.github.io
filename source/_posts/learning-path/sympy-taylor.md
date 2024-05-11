@@ -1,5 +1,6 @@
 ---
 title: 用Sympy库计算泰勒展开式并估算拉格朗日余项
+cover: cover.png
 ---
 
 # Sympy与Numpy

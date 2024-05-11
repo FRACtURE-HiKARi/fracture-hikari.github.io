@@ -5,11 +5,19 @@
     "home_page_url": "https://fracture-hikari.github.io",
     "items": [
         {
+            "id": "https://fracture-hikari.github.io/2024/05/11/learning-path/sympy-taylor/",
+            "url": "https://fracture-hikari.github.io/2024/05/11/learning-path/sympy-taylor/",
+            "title": "用Sympy库计算泰勒展开式并估算拉格朗日余项",
+            "date_published": "2024-05-11T03:59:01.740Z",
+            "content_html": "<h1 id=\"sympy与numpy\"><a class=\"markdownIt-Anchor\" href=\"#sympy与numpy\">#</a> Sympy 与 Numpy</h1>\n<p>这里我们用到了 sympy 符号计算库和 numpy 数值计算库。</p>\n",
+            "tags": []
+        },
+        {
             "id": "https://fracture-hikari.github.io/2024/05/10/learning-path/mp11-ast/",
             "url": "https://fracture-hikari.github.io/2024/05/10/learning-path/mp11-ast/",
             "title": "MP11 和抽象语法树",
             "date_published": "2024-05-10T13:06:39.545Z",
-            "content_html": "<h1 id=\"mp11\"><a class=\"markdownIt-Anchor\" href=\"#mp11\">#</a> MP11</h1>\n<p>这是某校某课的某作业，其内容是手搓半个 C 语言到 LC-3 汇编的编译器。<br>\n基于 flex 和 bison 的语法分析器已经做好了，要写的部分是从 AST 到汇编语言的转换。</p>\n<p><s>施工中啊吧啊吧</s></p>\n",
+            "content_html": "<h1 id=\"mp11\"><a class=\"markdownIt-Anchor\" href=\"#mp11\">#</a> MP11</h1>\n<p>这是某校某课的某作业，其内容是手搓半个 C 语言到 LC-3 汇编的编译器。<br>\n基于 flex 和 bison 的语法分析器已经做好了，要写的部分是从 AST 到汇编语言的转换。</p>\n<p><s>施工中啊吧啊吧</s></p>\n<figure class=\"highlight c\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"class\"><span class=\"keyword\">struct</span> <span class=\"title\">ast220_t</span> &#123;</span></span><br><span class=\"line\">    <span class=\"type\">ast220_type_t</span>   type;       <span class=\"comment\">/* type of AST node                   */</span></span><br><span class=\"line\">    <span class=\"type\">int32_t</span>         value;      <span class=\"comment\">/* a number (PUSH_INT, DEBUG_MARKER)  */</span></span><br><span class=\"line\">    <span class=\"type\">char</span>*           name;       <span class=\"comment\">/* a string (PUSH_STR, VARIABLE)      */</span></span><br><span class=\"line\">    <span class=\"type\">ast220_builtin_func_t</span> fnum; <span class=\"comment\">/* function number (FUNC_CALL)        */</span></span><br><span class=\"line\">    <span class=\"type\">ast220_t</span>*       test;       <span class=\"comment\">/* test condition (IF_STMT, FOR_STMT) */</span></span><br><span class=\"line\">    <span class=\"type\">ast220_t</span>*       left;       <span class=\"comment\">/* left child/first operand           */</span></span><br><span class=\"line\">    <span class=\"type\">ast220_t</span>*       middle;     <span class=\"comment\">/* middle child (FOR_STMT)            */</span></span><br><span class=\"line\">    <span class=\"type\">ast220_t</span>*       right;      <span class=\"comment\">/* right child/second operand         */</span></span><br><span class=\"line\">    <span class=\"type\">ast220_t</span>*       next;       <span class=\"comment\">/* next AST node                      */</span></span><br><span class=\"line\">&#125;;</span><br></pre></td></tr></table></figure>\n<p>这是作业中关于</p>\n",
             "tags": []
         },
         {
