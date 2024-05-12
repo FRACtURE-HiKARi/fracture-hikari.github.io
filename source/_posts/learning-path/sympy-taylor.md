@@ -6,6 +6,7 @@ categories:
   - 学习笔记
 tags: 
   - Python
+date: 2024-05-12
 ---
 
 # Sympy与Numpy
