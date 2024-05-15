@@ -6,6 +6,7 @@ categories:
   - 学习笔记
 tags: 
   - Python
+  - Scientific Computing
 date: 2024-05-12
 ---
 
@@ -72,7 +73,7 @@ plt.show() # 显示图片
 
 ## 估算拉格朗日余项
 根据拉格朗日余项的性质，我们知道：对于任意$|x-a|\le d$ 都有 $|f^{n+1}(x)|\le M$ 则对于这样的 $x$ 有 $|R_n(x)| \le \frac{M}{(n+1)!}|x-a|^{n+1}$。我们可以通过这种方式估算拉格朗日余项的最大值。
-先求 n+1 阶导$f^(n+1)(a)$。
+先求 n+1 阶导$f^{(n+1)}(a)$。
 ``` python
 fn1 = abs(sp.diff(f, x, n+1))
 ```

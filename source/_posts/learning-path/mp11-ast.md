@@ -2,6 +2,11 @@
 title: MP11 和抽象语法树
 cover: cover.png
 date: 2024-05-11
+categories: 
+  - 学习笔记
+tags: 
+  - C
+  - Compiling
 ---
 
 # MP11
@@ -12,7 +17,7 @@ date: 2024-05-11
 ## Abstract Syntax Tree
 Abstract Syntax Tree, 抽象语法树，顾名思义，就是把被编译的源代码拆解成比较抽象的token，然后用一个树状的结构去表示这些token。
 在一些场景里AST可以用`json`表示。这里用的是一个链表的形式。
-``` C
+``` c
 struct ast220_t {
     ast220_type_t   type;       /* type of AST node                   */
     int32_t         value;      /* a number (PUSH_INT, DEBUG_MARKER)  */
@@ -30,7 +35,7 @@ struct ast220_t {
 
 比如一个简单的语句在AST里就可以这样表示:
 ### 赋值语句
-``` C
+``` c
 int a;
 a = 1;
 ```
@@ -44,7 +49,7 @@ a = 1;
 ### 打印 Hello World
 
 拆解一下hello world程序
-``` C
+``` c
 #include <stdio.h>
 int main()
 {
