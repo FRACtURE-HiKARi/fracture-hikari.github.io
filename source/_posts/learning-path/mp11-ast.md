@@ -1,7 +1,7 @@
 ---
 title: MP11 和抽象语法树
 cover: cover.png
-date: 2024-05-11
+date: 2024-05-15
 categories: 
   - 学习笔记
 tags: 
@@ -59,3 +59,16 @@ int main()
 ```
 ![hello_world](hello_world.png "Hello World抽象语法树")
 
+这一部分是lexer和parser已经为我们处理好的了。接下来把AST转化成汇编就好办了，根据文档内容逐个实现即可。
+
+| AST Node | Definition |
+| ----- | ----- |
+| AST220_POP_STACK | `left` an expression to generate result |
+| AST220 FUNC CALL | `fnum` defines the function type, `left` a linked list of argument on `next` |
+| AST220_RETURN_STMT | `left` expression for return value |
+| AST220_PUSH_STR | push a string `name` (pointer) on stack |
+| AST220_PUSH_INT | push a int `value` on stack |
+
+要做的事就是 pop stack 和 return 之前先生成一下它的`left` expression，function call 之前先生成它的`left`所指定的参数链表，然后实现对应`int`和`str`的生成即可，很简单吧（）
+
+注：function call 得记得，栈上推了多少个参数，在函数执行之后就要出栈多少个参数，还要记得别把返回值搞丢了。
