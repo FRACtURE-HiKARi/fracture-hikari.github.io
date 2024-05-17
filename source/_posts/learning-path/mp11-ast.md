@@ -72,3 +72,21 @@ int main()
 要做的事就是 pop stack 和 return 之前先生成一下它的`left` expression，function call 之前先生成它的`left`所指定的参数链表，然后实现对应`int`和`str`的生成即可，很简单吧（）
 
 注：function call 得记得，栈上推了多少个参数，在函数执行之后就要出栈多少个参数，还要记得别把返回值搞丢了。
+
+# 测试脚本
+5.17更新：一个比较输出的脚本，用法：`./test.sh <input_filename>`
+
+``` bash
+make
+if [ $# -eq 1 ]
+then
+	cat $1 | ./c220 > out.asm
+	lc3as out.asm
+	cat $1 | ./gold > gold.asm
+	lc3as gold.asm
+	diff <(lc3sim -s <(echo "f out"; echo "c")) <(lc3sim -s <(echo "f gold"; echo "c"))
+else
+	echo "Missing Input Files or bad arguments. Abropt."
+	echo "Usage: ./test.sh <test filename>"
+fi
+```
