@@ -5,6 +5,11 @@ date: 2024-05-11 12:24:13
 
 {% links %}
 
+- site: TheJavaNoob
+  owner: TheJavaNoob
+  url: https://thejavanoob.com/
+  image: https://avatars.githubusercontent.com/u/25548899
+
 - site: AutuEnd
   owner: AutuEnd
   url: https://autuend.github.io
@@ -13,6 +18,7 @@ date: 2024-05-11 12:24:13
 - site: WanYuxiang-Code
   owner: Wan Yuxiang
   url: https://wanyuxiang-code.github.io
+  image: https://avatars.githubusercontent.com/u/145841723
 
 - site: Xia Wubing's Blog
   owner: Xia Wubing
