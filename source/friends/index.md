@@ -25,4 +25,9 @@ date: 2024-05-11 12:24:13
   url: https://xiawubing.github.io
   image: https://xiawubing.github.io/images/touxiang.jpg
 
+- site: 呼姆呼姆
+  owner: 呼姆奴库
+  url: https://hmnkapa.github.io
+  image: https://hmnkapa.github.io/img/a.png
+
 {% endlinks %}
