@@ -64,7 +64,7 @@ function getSentenceHashValue(sentence) {
         return 0.0;
     }
 
-    const words = sentence.toLowerCase().match(/\b\w+\b/g) || []; // Tokenize words
+    const words = [... sentence];
     if (words.length === 0) {
         return 0.0; // No words found
     }
