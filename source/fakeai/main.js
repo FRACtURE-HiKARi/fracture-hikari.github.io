@@ -62,10 +62,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
                 const sentenceScore = getSentenceHashValue(trimmedSentence);
-
                 // Define your highlighting threshold here based on the LSH score
                 // For example, highlight if the score is 5 or more.
-                if (sentenceScore < JRRP) { // This is your "bucket" condition
+                if (sentenceScore > JRRP) { // This is your "bucket" condition
                     processedHTML += `<span class="highlight">${sentence}</span>`;
                     aiCount += 1;
                 } else {
@@ -75,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             var rate = (aiCount) / (aiCount + notAiCount);
-            aiRate.textContent = `AI率: ${rate * 100}%`
+            aiRate.textContent = `AI率: ${rate}%`
 
             // Set the innerHTML of the display div
             textDisplayDiv.innerHTML = processedHTML;
