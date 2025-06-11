@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
 
             var rate = (aiCount) / (aiCount + notAiCount);
-            aiRate.textContent = `AI率: ${rate}%`
+            aiRate.textContent = `AI率: ${rate * 100}%`
 
             // Set the innerHTML of the display div
             textDisplayDiv.innerHTML = processedHTML;
