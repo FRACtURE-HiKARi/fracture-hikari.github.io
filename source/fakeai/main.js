@@ -66,10 +66,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 // For example, highlight if the score is 5 or more.
                 if (sentenceScore > JRRP) { // This is your "bucket" condition
                     processedHTML += `<span class="highlight">${sentence}</span>`;
-                    aiCount += 1;
+                    aiCount += sentence.length;
                 } else {
                     processedHTML += sentence; // Add as plain text
-                    notAiCount += 1;
+                    notAiCount += sentence.length;
                 }
             });
 
