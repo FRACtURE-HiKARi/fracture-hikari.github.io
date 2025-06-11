@@ -1,0 +1,156 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.panel {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* Important for border-radius on children */
+}
+
+/* Style for the editable div (acting as input) and the display div */
+#text-input-div,
+#text-display-div {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    overflow-y: auto;
+    /* Reset default contenteditable styling */
+    outline: none;
+}
+
+/* Style for the contenteditable div */
+#text-input-div {
+    display: block;
+    /* Initially visible */
+}
+
+/* Style for the display div */
+#text-display-div {
+    display: none;
+    /* Initially hidden */
+}
+
+#char-count {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 14px;
+    color: #888;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    /* Add some rounding */
+    z-index: 2;
+    /* Ensure it stays on top */
+}
+
+#ai-rate {
+    position: absolute;
+    bottom: 32px;
+    right: 20px;
+    font-size: 14px;
+    color: #888;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    /* Add some rounding */
+    z-index: 2;
+    /* Ensure it stays on top */
+}
+
+#submit-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* The highlight style */
+.highlight {
+    background-color: rgb(210, 245, 255);
+    /* Or any other highlight color */
+    padding: 0 2px;
+    /* Small padding for better visual separation */
+    border-radius: 3px;
+}
+
+/* ...existing code... */
+
+.floating-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.floating-box .tooltip {
+    visibility: hidden;
+    position: absolute;
+    bottom: 125%;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    width: max-content;
+    max-width: 200px;
+    font-size: 12px;
+}
+
+.floating-box:hover .tooltip {
+    visibility: visible;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
